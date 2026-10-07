@@ -1,0 +1,86 @@
+{
+    "dataset_name": "AppleLeaf9",
+    "total_images": 14582,
+    "classes": [
+        "Alternaria leaf spot",
+        "Brown spot",
+        "Frogeye leaf spot",
+        "Grey spot",
+        "Healthy",
+        "Mosaic",
+        "Powdery mildew",
+        "Rust",
+        "Scab"
+    ],
+    "class_to_idx": {
+        "Alternaria leaf spot": 0,
+        "Brown spot": 1,
+        "Frogeye leaf spot": 2,
+        "Grey spot": 3,
+        "Healthy": 4,
+        "Mosaic": 5,
+        "Powdery mildew": 6,
+        "Rust": 7,
+        "Scab": 8
+    },
+    "class_statistics": {
+        "Scab": {
+            "count": 5410,
+            "percentage": 37.1,
+            "imbalance_ratio": 1.0
+        },
+        "Frogeye leaf spot": {
+            "count": 3181,
+            "percentage": 21.81,
+            "imbalance_ratio": 1.7
+        },
+        "Rust": {
+            "count": 2753,
+            "percentage": 18.88,
+            "imbalance_ratio": 1.97
+        },
+        "Powdery mildew": {
+            "count": 1184,
+            "percentage": 8.12,
+            "imbalance_ratio": 4.57
+        },
+        "Healthy": {
+            "count": 516,
+            "percentage": 3.54,
+            "imbalance_ratio": 10.48
+        },
+        "Alternaria leaf spot": {
+            "count": 417,
+            "percentage": 2.86,
+            "imbalance_ratio": 12.97
+        },
+        "Brown spot": {
+            "count": 411,
+            "percentage": 2.82,
+            "imbalance_ratio": 13.16
+        },
+        "Mosaic": {
+            "count": 371,
+            "percentage": 2.54,
+            "imbalance_ratio": 14.58
+        },
+        "Grey spot": {
+            "count": 339,
+            "percentage": 2.32,
+            "imbalance_ratio": 15.96
+        }
+    },
+    "splits": {
+        "train_count": 10202,
+        "val_count": 2182,
+        "test_count": 2198,
+        "ratio": "70/15/15"
+    },
+    "resolution_stats": {
+        "width_mean": 1024.6,
+        "height_mean": 704.8,
+        "median_width": 958,
+        "median_height": 640
+    },
+    "random_seed": 42
+}

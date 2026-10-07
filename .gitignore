@@ -1,0 +1,25 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Heavy Raw & Processed Datasets (AppleLeaf9 is 1.1GB, keep manifests in data/splits/)
+data/raw/
+data/processed/
+
+# Model Checkpoint Weights (*.pth, *.onnx)
+experiments/checkpoints/
+*.pth
+*.onnx
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
